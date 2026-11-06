@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Benduri Akshaya | Cybersecurity Student Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">Akshaya Benduri</a>
+  <nav aria-label="Sections">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#demo">Try it</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+</div></header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <div class="hero-grid">
+      <div>
+        <h1>Benduri Akshaya</h1>
+        <p class="role">B.Tech CSE student, Cybersecurity specialization</p>
+        <p class="lead">I monitor, investigate and lock down systems. My work so far covers SOC alert triage, SIEM and EDR deployment, penetration testing, and Zero Trust access for internal apps.</p>
+        <div class="cta">
+          <a class="btn p" href="#projects">See my projects</a>
+          <a class="btn s" href="#contact">Get in touch</a>
+          <a class="btn s" href="assets/Benduri_Akshaya_Resume.pdf" download>Download resume</a>
+        </div>
+      </div>
+      <aside class="glance" aria-label="At a glance">
+        <p class="t">At a glance</p>
+        <dl>
+          <div><dt>University</dt><dd>Sreenidhi Institute of Science and Technology</dd></div>
+          <div><dt>Degree</dt><dd>B.Tech, 2023 to 2027</dd></div>
+          <div><dt>CGPA</dt><dd>8.8</dd></div>
+          <div><dt>Internships</dt><dd>2</dd></div>
+          <div><dt>Certifications</dt><dd>4</dd></div>
+          <div><dt>Based in</dt><dd>Hyderabad, India</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p class="about">I’m a final-year B.Tech student at Sreenidhi Institute of Science and Technology, specializing in cybersecurity. Through two internships and hands-on lab projects, I’ve worked with ELK, Splunk, CrowdStrike Falcon, Cloudflare Zero Trust, Nmap, Burp Suite and Metasploit.</p>
+    <p class="about">I enjoy turning raw logs and alerts into clear answers, and I build small Python tools to automate the repetitive parts of security work. I’m looking for a cybersecurity role where I can apply threat monitoring, log analysis and endpoint security to strengthen an organization’s defenses.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="tl">
+      <div class="job">
+        <h3>Cybersecurity Intern, Blue Cloud Softech Solutions Ltd</h3>
+        <p class="meta">2026 to present · On-site, Hyderabad</p>
+        <ul>
+          <li>Worked on SOC, SIEM, EDR, Zero Trust and SASE security activities.</li>
+          <li>Analyzed security alerts using ELK SIEM, validated CrowdStrike Falcon EDR and implemented Cloudflare Zero Trust.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Cybersecurity Intern, Supraja Technologies</h3>
+        <p class="meta">Sep 2025 to Jan 2026 · Vijayawada</p>
+        <ul>
+          <li>Performed 4 cybersecurity activities: penetration testing, SOC operations, malware analysis, and web/API security assessments.</li>
+          <li>Used Nmap, Burp Suite, Metasploit and Splunk for vulnerability assessment and security monitoring.</li>
+          <li>Received a Certificate of Appreciation from SNIST and Supraja Technologies for Cyber Security Tools and Techniques.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <article class="proj">
+      <div><h3>Phishing Email Analyzer</h3><p class="yr">2026</p></div>
+      <div>
+        <ul>
+          <li>Extracts URLs, attachments, sender details and authentication indicators from an email.</li>
+          <li>Runs VirusTotal and offline reputation checks using URL analysis and SHA-256 hash verification.</li>
+          <li>Produces explainable 0 to 100 risk scores with Low, Medium, High and Critical verdicts.</li>
+        </ul>
+        <span class="metric">95% recall, 0% false positives on a 40-email synthetic dataset</span>
+        <ul class="tags"><li>Python</li><li>Flask</li><li>VirusTotal API</li><li>SHA-256</li><li>Email security</li><li>Threat intelligence</li><li>Risk scoring</li></ul>
+        <p style="margin-top:14px"><a href="#demo">Try a simplified version of the scoring below</a></p>
+      </div>
+    </article>
+    <article class="proj">
+      <div><h3>SASE and Zero Trust Application Security</h3><p class="yr">2026 · SOC Intern</p></div>
+      <div>
+        <ul>
+          <li>Secured an internal application with Cloudflare Access and Tunnel using identity-based authentication.</li>
+          <li>Configured access policies, tested the controls and prevented direct origin exposure.</li>
+        </ul>
+        <ul class="tags"><li>Cloudflare Zero Trust</li><li>Cloudflare Access</li><li>Cloudflare Tunnel</li><li>SASE</li><li>IAM</li></ul>
+      </div>
+    </article>
+    <article class="proj">
+      <div><h3>CrowdStrike Falcon EDR Validation and Endpoint Monitoring</h3><p class="yr">2026 · Security Engineer, EDR Testing</p></div>
+      <div>
+        <ul>
+          <li>Deployed and validated CrowdStrike Falcon EDR on a Windows 10 VM.</li>
+          <li>Ran an EICAR malware detection test and verified the security alerts.</li>
+          <li>Analyzed Process Tree telemetry to confirm endpoint visibility and monitoring.</li>
+        </ul>
+        <ul class="tags"><li>CrowdStrike Falcon</li><li>Windows 10</li><li>PowerShell</li><li>Oracle VirtualBox</li><li>Process tree analysis</li></ul>
+      </div>
+    </article>
+    <article class="proj">
+      <div><h3>Elastic SIEM and ELK Stack: Security Monitoring and Log Analysis</h3></div>
+      <div>
+        <ul>
+          <li>Deployed the ELK Stack (Elasticsearch, Logstash, Kibana) on Ubuntu and verified log ingestion.</li>
+          <li>Configured Elastic Cloud SIEM, Fleet and Elastic Agent to collect Windows endpoint logs.</li>
+          <li>Analyzed centralized security logs in Kibana Discover for monitoring and investigation.</li>
+        </ul>
+        <ul class="tags"><li>Elasticsearch</li><li>Logstash</li><li>Kibana</li><li>Elastic Cloud</li><li>Fleet</li><li>Elastic Agent</li><li>Ubuntu</li></ul>
+      </div>
+    </article>
+  </section>
+
+  <section id="demo">
+    <h2>Try the risk score</h2>
+    <div class="demo">
+      <div>
+        <p class="note">A simplified, illustrative version of how my analyzer combines indicators into a score. Tick the red flags you find in an email.</p>
+        <div class="checks" id="checks">
+          <label><input type="checkbox" data-w="25" data-t="Link points to a look-alike domain"><span>Link points to a look-alike domain<small>URL analysis</small></span></label>
+          <label><input type="checkbox" data-w="20" data-t="Sender address does not match the display name"><span>Sender doesn’t match the display name<small>Sender details</small></span></label>
+          <label><input type="checkbox" data-w="20" data-t="SPF or DKIM authentication failed"><span>SPF or DKIM check failed<small>Authentication indicators</small></span></label>
+          <label><input type="checkbox" data-w="20" data-t="Attachment type is executable or macro-enabled"><span>Executable or macro attachment<small>Attachment analysis</small></span></label>
+          <label><input type="checkbox" data-w="25" data-t="Attachment hash is flagged by a reputation check"><span>Attachment hash flagged as malicious<small>SHA-256 reputation</small></span></label>
+        </div>
+      </div>
+      <div class="result" aria-live="polite">
+        <div class="score"><span id="n">0</span><small> / 100</small></div>
+        <div class="bar"><i id="bar"></i></div>
+        <div class="verdict" id="v">Low</div>
+        <p class="why" id="why">No indicators selected yet.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="sk"><h3>Security operations</h3><p>SOC operations, SIEM, EDR, log analysis, threat monitoring, endpoint security</p></div>
+      <div class="sk"><h3>SIEM and tools</h3><p>ELK, Elastic Agent, Splunk, CrowdStrike Falcon, Sophos Firewall</p></div>
+      <div class="sk"><h3>Network and application security</h3><p>Network security, OWASP Top 10</p></div>
+      <div class="sk"><h3>Cloud and Zero Trust</h3><p>Cloudflare Zero Trust, SASE, Microsoft Entra ID</p></div>
+      <div class="sk"><h3>Programming languages</h3><p>Python, Bash, Java, C</p></div>
+      <div class="sk"><h3>Tools and platforms</h3><p>Git, Linux, basic Docker, Ubuntu</p></div>
+      <div class="sk"><h3>Soft skills</h3><p>Adaptability, communication, teamwork, time management, quick learner, leadership</p></div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="two">
+      <div>
+        <h2>Education</h2>
+        <div class="edu"><h3>Sreenidhi Institute of Science and Technology</h3><p>B.Tech, CSE with Cybersecurity specialization</p><p>2023 to 2027 · CGPA 8.8</p></div>
+        <div class="edu"><h3>Narayana Junior College</h3><p>Intermediate</p><p>2021 to 2023 · 85.6%</p></div>
+      </div>
+      <div>
+        <h2>Certifications</h2>
+        <div class="cert"><b>Falcon Administrator</b><span>CrowdStrike</span></div>
+        <div class="cert"><b>Vulnerability Management, Detection and Response</b><span>Qualys</span></div>
+        <div class="cert"><b>Network Defense</b><span>Cisco Networking Academy</span></div>
+        <div class="cert"><b>Introduction to Cybersecurity and Cyber Threat Management</b><span>Cisco Networking Academy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>I’m open to cybersecurity internships and entry-level roles. The quickest way to reach me is email.</p>
+    <ul>
+      <li><b>Email</b><a href="mailto:akshayabenduri2@gmail.com">akshayabenduri2@gmail.com</a></li>
+      <li><b>Phone</b><a href="tel:+916301527450">+91 63015 27450</a></li>
+      <li><b>LinkedIn</b><a href="https://www.linkedin.com/in/akshaya-benduri" target="_blank" rel="noopener">linkedin.com/in/akshaya-benduri</a></li>
+      <li><b>GitHub</b><a href="https://github.com/akshayaxhacker-12" target="_blank" rel="noopener">github.com/akshayaxhacker-12</a></li>
+      <li><b>Location</b>Hyderabad, India</li>
+    </ul>
+  </section>
+</div>
+</main>
+<footer><div class="wrap">Benduri Akshaya · B.Tech Cybersecurity Student · Sreenidhi Institute of Science and Technology</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
